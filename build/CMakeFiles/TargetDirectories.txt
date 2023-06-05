@@ -1,0 +1,8 @@
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles/edit_cache.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles/rebuild_cache.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/1_hello_world/CMakeFiles/1_HelloWorld.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/1_hello_world/CMakeFiles/edit_cache.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/1_hello_world/CMakeFiles/rebuild_cache.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/2_side_gou_demo/CMakeFiles/2_side_gou_demo.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/2_side_gou_demo/CMakeFiles/edit_cache.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/2_side_gou_demo/CMakeFiles/rebuild_cache.dir
