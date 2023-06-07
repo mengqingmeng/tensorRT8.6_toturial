@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/HardDisk/DEV/CODE/tensorrt8.6_toturial/2_side_gou_demo/src/main.cpp" "CMakeFiles/2_side_gou_demo.dir/src/main.cpp.o" "gcc" "CMakeFiles/2_side_gou_demo.dir/src/main.cpp.o.d"
+  "/HardDisk/DEV/CODE/tensorrt8.6_toturial/2_side_gou_demo/src/yolo_base.cpp" "CMakeFiles/2_side_gou_demo.dir/src/yolo_base.cpp.o" "gcc" "CMakeFiles/2_side_gou_demo.dir/src/yolo_base.cpp.o.d"
   )
 
 # Targets to which this target links.

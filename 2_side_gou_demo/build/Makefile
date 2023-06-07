@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_side_gou_demo.dir/build.make CMakeFiles/2_side_gou_demo.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/yolo_base.o: src/yolo_base.cpp.o
+.PHONY : src/yolo_base.o
+
+# target to build an object file
+src/yolo_base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_side_gou_demo.dir/build.make CMakeFiles/2_side_gou_demo.dir/src/yolo_base.cpp.o
+.PHONY : src/yolo_base.cpp.o
+
+src/yolo_base.i: src/yolo_base.cpp.i
+.PHONY : src/yolo_base.i
+
+# target to preprocess a source file
+src/yolo_base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_side_gou_demo.dir/build.make CMakeFiles/2_side_gou_demo.dir/src/yolo_base.cpp.i
+.PHONY : src/yolo_base.cpp.i
+
+src/yolo_base.s: src/yolo_base.cpp.s
+.PHONY : src/yolo_base.s
+
+# target to generate assembly for a file
+src/yolo_base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2_side_gou_demo.dir/build.make CMakeFiles/2_side_gou_demo.dir/src/yolo_base.cpp.s
+.PHONY : src/yolo_base.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/yolo_base.o"
+	@echo "... src/yolo_base.i"
+	@echo "... src/yolo_base.s"
 .PHONY : help
 
 
