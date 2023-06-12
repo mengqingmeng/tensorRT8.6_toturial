@@ -25,8 +25,6 @@ Yolov5TRT::~Yolov5TRT()
     if(!m_runtime){
         delete m_runtime;
     }
-
-    std::cout << "yolov5 析构" << std::endl;
 }
 
 void Yolov5TRT::doDetect(const cv::Mat &inImage, std::vector<DetectResult> &results)

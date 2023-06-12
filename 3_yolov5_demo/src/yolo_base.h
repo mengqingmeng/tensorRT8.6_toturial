@@ -88,10 +88,13 @@ class YoloBase{
         /// @brief 模型输出宽度
         int m_outputWidth;
 
+        /// @brief 图像最小比例
         float m_ratio;
 
+        /// @brief 图像左边填充尺寸
         float m_paddingLeft;
 
+        /// @brief 图像顶面填充尺寸
         float m_paddingTop;
 
         /// @brief 标签名称列表
@@ -108,8 +111,13 @@ class YoloBase{
         /// @param lines 文件行内容
         void readFileLines(const std::string& filePath,std::vector<std::string>& lines);
 
+        /// @brief 子类重写，实现真正的目标检测
+        /// @param inImage 输入图像
+        /// @param results 输出结果
         virtual void doDetect(const cv::Mat& inImage, std::vector<DetectResult>& results) = 0;
 
+        /// @brief 子类重写，实现真正的初始化模型
+        /// @param modelPath 
         virtual void doInit(const std::string& modelPath) = 0;
 };
 #endif

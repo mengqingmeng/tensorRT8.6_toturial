@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1_hello_world",
+					"jsonFile" : "directory-1_hello_world-Debug-16ac75722a7434e64af7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "1_hello_world",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "2_side_gou_demo",
+					"jsonFile" : "directory-2_side_gou_demo-Debug-3c58f12015bb69256713.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "2_side_gou_demo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "3_yolov5_demo",
+					"jsonFile" : "directory-3_yolov5_demo-Debug-a696f683481a00be3053.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "3_yolov5_demo",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tensorRT8.6_toturial"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "1_HelloWorld",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "2_side_gou_demo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "3_yolov5_demo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "1_HelloWorld::@7aa55d66cf422780158d",
+					"jsonFile" : "target-1_HelloWorld-Debug-14011817295a926bdfac.json",
+					"name" : "1_HelloWorld",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2_side_gou_demo::@017ab5816028683b8c47",
+					"jsonFile" : "target-2_side_gou_demo-Debug-4a52a55279c27782de18.json",
+					"name" : "2_side_gou_demo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "3_yolov5_demo::@0f9b53ce72e0c4fcf1cd",
+					"jsonFile" : "target-3_yolov5_demo-Debug-9a8673a7581a8bfeddc6.json",
+					"name" : "3_yolov5_demo",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/HardDisk/DEV/CODE/tensorrt8.6_toturial/build",
+		"source" : "/HardDisk/DEV/CODE/tensorrt8.6_toturial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
