@@ -1,4 +1,4 @@
-PROJECT(2_side_gou_demo)
+PROJECT(3_yolov5_demo)
 cmake_minimum_required(VERSION 3.0)
 
 set(CMAKE_BUILD_TYPE "Debug")
@@ -34,14 +34,14 @@ include_directories( ${CUDA_INCLUDE_DIRS} )
 # 添加头文件和源文件
 file(GLOB SRC_FILES "${PROJECT_SOURCE_DIR}/src/*.cpp" "${PROJECT_SOURCE_DIR}/src/*.h")
 
-add_executable(2_side_gou_demo ${SRC_FILES})
+add_executable(3_yolov5_demo ${SRC_FILES})
 
 if(OpenCV_FOUND)
-  target_link_libraries(2_side_gou_demo ${OpenCV_LIBS})
+  target_link_libraries(3_yolov5_demo ${OpenCV_LIBS})
 endif()
 
 if(CUDA_FOUND)
-target_link_libraries(2_side_gou_demo ${CUDA_LIBRARIES})
+target_link_libraries(3_yolov5_demo ${CUDA_LIBRARIES})
 endif()
 
-target_link_libraries(2_side_gou_demo ${NVINFER})
+target_link_libraries(3_yolov5_demo ${NVINFER})

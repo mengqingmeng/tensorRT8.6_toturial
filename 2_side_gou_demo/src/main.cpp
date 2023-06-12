@@ -89,8 +89,6 @@ int main(int argc,char** argv){
     cudaMalloc(&buffers[0],input_size * sizeof(float));
     // 输出
     cudaMalloc(&buffers[1],output_size * sizeof(float));
-    std::vector<float> prob;
-    prob.resize(output_size);
     
     // 创建cuda流
     cudaStream_t stream;
@@ -139,6 +137,9 @@ int main(int argc,char** argv){
     //cv::divide(blob,cv::Scalar(),blob);
     std::cout << "input size, width:" << blob.cols << " height:" << blob.rows << std::endl; 
     //cv::Mat tensor = cv::dnn::blobFromImage(blob); // HWC -> CHW
+
+    std::vector<float> prob;
+    prob.resize(output_size);
 
     // 内存到显存
     cudaMemcpyAsync(buffers[input_index],tensor.ptr<float>(),input_size*sizeof(float),cudaMemcpyHostToDevice,stream);

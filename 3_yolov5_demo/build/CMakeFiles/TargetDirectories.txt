@@ -1,0 +1,3 @@
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/build/CMakeFiles/3_yolov5_demo.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/build/CMakeFiles/edit_cache.dir
+/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/build/CMakeFiles/rebuild_cache.dir

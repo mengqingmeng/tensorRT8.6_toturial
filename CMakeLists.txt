@@ -5,3 +5,4 @@ set(CMAKE_BUILD_TYPE "Debug")
 
 add_subdirectory(1_hello_world)
 add_subdirectory(2_side_gou_demo)
+add_subdirectory(3_yolov5_demo)
