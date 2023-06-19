@@ -178,6 +178,30 @@ src/yolo_base.cpp.s:
 	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build && $(MAKE) $(MAKESILENT) -f 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/build.make 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.s
 .PHONY : src/yolo_base.cpp.s
 
+src/yolov5_seg_trt.o: src/yolov5_seg_trt.cpp.o
+.PHONY : src/yolov5_seg_trt.o
+
+# target to build an object file
+src/yolov5_seg_trt.cpp.o:
+	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build && $(MAKE) $(MAKESILENT) -f 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/build.make 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o
+.PHONY : src/yolov5_seg_trt.cpp.o
+
+src/yolov5_seg_trt.i: src/yolov5_seg_trt.cpp.i
+.PHONY : src/yolov5_seg_trt.i
+
+# target to preprocess a source file
+src/yolov5_seg_trt.cpp.i:
+	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build && $(MAKE) $(MAKESILENT) -f 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/build.make 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.i
+.PHONY : src/yolov5_seg_trt.cpp.i
+
+src/yolov5_seg_trt.s: src/yolov5_seg_trt.cpp.s
+.PHONY : src/yolov5_seg_trt.s
+
+# target to generate assembly for a file
+src/yolov5_seg_trt.cpp.s:
+	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build && $(MAKE) $(MAKESILENT) -f 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/build.make 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.s
+.PHONY : src/yolov5_seg_trt.cpp.s
+
 src/yolov5_trt.o: src/yolov5_trt.cpp.o
 .PHONY : src/yolov5_trt.o
 
@@ -217,6 +241,9 @@ help:
 	@echo "... src/yolo_base.o"
 	@echo "... src/yolo_base.i"
 	@echo "... src/yolo_base.s"
+	@echo "... src/yolov5_seg_trt.o"
+	@echo "... src/yolov5_seg_trt.i"
+	@echo "... src/yolov5_seg_trt.s"
 	@echo "... src/yolov5_trt.o"
 	@echo "... src/yolov5_trt.i"
 	@echo "... src/yolov5_trt.s"

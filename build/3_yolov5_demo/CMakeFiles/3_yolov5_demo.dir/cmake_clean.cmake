@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/3_yolov5_demo.dir/src/main.cpp.o.d"
   "CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.o"
   "CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.o.d"
+  "CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o"
+  "CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o.d"
   "CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o"
   "CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o.d"
 )

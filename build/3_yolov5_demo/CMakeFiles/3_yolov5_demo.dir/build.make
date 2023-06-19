@@ -97,10 +97,24 @@ include 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/flags.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.s"
 	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build/3_yolov5_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolo_base.cpp -o CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.s
 
+3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/flags.make
+3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o: ../3_yolov5_demo/src/yolov5_seg_trt.cpp
+3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o"
+	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build/3_yolov5_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o -MF CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o.d -o CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o -c /HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolov5_seg_trt.cpp
+
+3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.i"
+	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build/3_yolov5_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolov5_seg_trt.cpp > CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.i
+
+3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.s"
+	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build/3_yolov5_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolov5_seg_trt.cpp -o CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.s
+
 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/flags.make
 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o: ../3_yolov5_demo/src/yolov5_trt.cpp
 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o"
 	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build/3_yolov5_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o -MF CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o.d -o CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o -c /HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolov5_trt.cpp
 
 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.i: cmake_force
@@ -115,6 +129,7 @@ include 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/flags.make
 3_yolov5_demo_OBJECTS = \
 "CMakeFiles/3_yolov5_demo.dir/src/main.cpp.o" \
 "CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.o" \
+"CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o" \
 "CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o"
 
 # External object files for target 3_yolov5_demo
@@ -122,6 +137,7 @@ include 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/flags.make
 
 3_yolov5_demo/3_yolov5_demo: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/main.cpp.o
 3_yolov5_demo/3_yolov5_demo: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.o
+3_yolov5_demo/3_yolov5_demo: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o
 3_yolov5_demo/3_yolov5_demo: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o
 3_yolov5_demo/3_yolov5_demo: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/build.make
 3_yolov5_demo/3_yolov5_demo: /HardDisk/DEV/SDK/opencv-4.7.0/build/lib/libopencv_gapi.so.4.7.0
@@ -192,7 +208,7 @@ include 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/flags.make
 3_yolov5_demo/3_yolov5_demo: /HardDisk/DEV/SDK/opencv-4.7.0/build/lib/libopencv_core.so.4.7.0
 3_yolov5_demo/3_yolov5_demo: /HardDisk/DEV/SDK/opencv-4.7.0/build/lib/libopencv_cudev.so.4.7.0
 3_yolov5_demo/3_yolov5_demo: 3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable 3_yolov5_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/HardDisk/DEV/CODE/tensorrt8.6_toturial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 3_yolov5_demo"
 	cd /HardDisk/DEV/CODE/tensorrt8.6_toturial/build/3_yolov5_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3_yolov5_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

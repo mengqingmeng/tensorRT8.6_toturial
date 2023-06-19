@@ -60,6 +60,10 @@ class YoloBase{
         /// @param conf 
         virtual void changeNMSConf(float conf);
 
+        /// @brief sigmod 函数
+        /// @param a 
+        virtual float sigmodFunction(float a);
+
     protected:
         /// @brief IOU置信度
         float m_confThreshold = 0.25; 

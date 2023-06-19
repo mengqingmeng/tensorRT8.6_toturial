@@ -18,6 +18,11 @@ void YoloBase::changeNMSConf(float conf)
     m_nmsThreshold = conf;
 }
 
+float YoloBase::sigmodFunction(float a)
+{
+     return 1. / (1. + exp(-a))
+}
+
 void YoloBase::init(const std::string &engineFile, const std::string &lablesFile, const float confThreshold, const float objScoreThreshold,const std::vector<std::string>& labelNames)
 {   
     m_confThreshold = confThreshold;

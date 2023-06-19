@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/main.cpp" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/main.cpp.o" "gcc" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/main.cpp.o.d"
   "/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolo_base.cpp" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.o" "gcc" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolo_base.cpp.o.d"
+  "/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolov5_seg_trt.cpp" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o" "gcc" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_seg_trt.cpp.o.d"
   "/HardDisk/DEV/CODE/tensorrt8.6_toturial/3_yolov5_demo/src/yolov5_trt.cpp" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o" "gcc" "3_yolov5_demo/CMakeFiles/3_yolov5_demo.dir/src/yolov5_trt.cpp.o.d"
   )
 

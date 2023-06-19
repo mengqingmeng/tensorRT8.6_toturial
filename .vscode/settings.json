@@ -70,7 +70,9 @@
         "__config": "cpp",
         "__preprocessor": "cpp",
         "ios": "cpp",
-        "locale": "cpp"
+        "locale": "cpp",
+        "__locale": "cpp",
+        "__split_buffer": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
